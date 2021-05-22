@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+header {
+    border: 3px solid black;
+    background-color: rgb(28, 143, 143);
+}
+h1 {
+    margin: 0;
+    line-height: 2em;
+}
+.currencyBlock {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 325px;
+    height: 80px;
+}
+img {
+    object-fit: contain;
+}
+
+.updateTstamp {
+    line-height: 2em;
+    font-size: 1.1em;
+    margin-bottom: -16px;
+    text-align: center;
+}
+
+/* Configuring built in styles below */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+input:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+} 
